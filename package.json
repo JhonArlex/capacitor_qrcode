@@ -1,0 +1,47 @@
+{
+  "name": "capacitor_qrcode",
+  "version": "0.0.2",
+  "description": "capacitor plugin to scan qr codes with ionic",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Jhon Arlex Ocampo Cifuentes",
+  "license": "Mozilla Public License 2.0",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "Qrcode.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JhonArlex/qr-code-cap"
+  },
+  "bugs": {
+    "url": "https://github.com/JhonArlex/qr-code-cap/issues"
+  }
+}
