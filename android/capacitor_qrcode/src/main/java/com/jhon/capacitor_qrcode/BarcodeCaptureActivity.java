@@ -62,7 +62,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
     // intent request code to handle updating play services if needed.
     private static final int RC_HANDLE_GMS = 9001;
-
+    private static final int RC_BARCODE_CAPTURE = 9001;
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
 
@@ -210,6 +210,10 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             builder = builder.setFocusMode(
                     autoFocus ? Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE : null);
         }
+
+        mCameraSource = builder
+                .setFlashMode(useFlash ? Camera.Parameters.FLASH_MODE_TORCH : null)
+                .build();
 
     }
 
@@ -429,5 +433,9 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     @Override
     public void onBarcodeDetected(Barcode barcode) {
         //do something with barcode data returned
+        Intent data = new Intent();
+        data.putExtra("code",barcode.displayValue);
+        setResult(RC_BARCODE_CAPTURE, data);
+        finish();
     }
 }

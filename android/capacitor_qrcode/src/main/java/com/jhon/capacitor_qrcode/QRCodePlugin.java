@@ -3,13 +3,14 @@ package com.jhon.capacitor_qrcode;
 import android.content.Intent;
 import android.util.Log;
 
+import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 
 
-@NativePlugin()
+@NativePlugin(requestCodes = 9001)
 public class QRCodePlugin extends Plugin {
 
     private static final int RC_BARCODE_CAPTURE = 9001;
@@ -17,14 +18,16 @@ public class QRCodePlugin extends Plugin {
 
     @PluginMethod()
     public void getCodeQR(PluginCall call) {
-        Intent intent = new Intent(this.getContext(), BarcodeCaptureActivity.class);
-        startActivityForResult(call, intent, RC_BARCODE_CAPTURE);
+        Intent intent = new Intent(this.getBridge().getContext(), BarcodeCaptureActivity.class);
         intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
+        startActivityForResult(call, intent, RC_BARCODE_CAPTURE);
     }
 
     @Override
     protected void handleOnActivityResult(int requestCode, int resultCode, Intent data) {
         super.handleOnActivityResult(requestCode, resultCode, data);
+
+        Log.d(TAG, "handle");
 
         PluginCall savedCall = getSavedCall();
 
@@ -37,7 +40,11 @@ public class QRCodePlugin extends Plugin {
         }
     }
 
+
+
     public void proccessData(PluginCall call, Intent data) {
-        Log.d(TAG, "proccessData: " + data);
+        JSObject ret = new JSObject();
+        ret.put("code", data.getStringExtra("code"));
+        call.success(ret);
     }
 }
