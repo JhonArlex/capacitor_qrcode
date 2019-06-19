@@ -17,3 +17,24 @@ en la libertad de implementarlo y adaptarlo a ios. Estoy pendiente si alguien lo
 
 ANDROID
 
+Esta version ya se encuentra funcionando.
+
+import 'capacitor_qrcode';
+import { Plugins } from '@capacitor/core';
+
+const { QRCodePlugin} = Plugins;
+
+.
+.
+.
+ scan() {
+    QRCodePlugin.getCodeQR().then(res => {
+      console.log(res);
+	  this.presentAlert(res.code);
+    });
+
+  }
+  
+  .
+  .
+  .
