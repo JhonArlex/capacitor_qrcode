@@ -10,14 +10,15 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 
 
-@NativePlugin(requestCodes = 9001)
+@NativePlugin(requestCodes = QRCodePlugin.RC_BARCODE_CAPTURE)
 public class QRCodePlugin extends Plugin {
 
-    private static final int RC_BARCODE_CAPTURE = 9001;
+    static final int RC_BARCODE_CAPTURE = 10001;
     private static final String TAG = "BarcodeMain";
 
     @PluginMethod()
     public void getCodeQR(PluginCall call) {
+        saveCall(call);
         Intent intent = new Intent(this.getBridge().getContext(), BarcodeCaptureActivity.class);
         intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
         startActivityForResult(call, intent, RC_BARCODE_CAPTURE);
