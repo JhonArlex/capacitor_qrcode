@@ -9,6 +9,12 @@ import Capacitor
 public class QRCodePlugin: CAPPlugin {
     
     @objc func echo(_ call: CAPPluginCall) {
+        
+        
+        DispatchQueue.main.async {
+          self.bridge.viewController.present(QRScannerView, animated: true, completion: nil)
+        }
+        
         let value = call.getString("value") ?? ""
         call.success([
             "value": value
