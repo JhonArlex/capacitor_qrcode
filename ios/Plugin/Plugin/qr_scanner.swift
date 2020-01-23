@@ -16,7 +16,7 @@ protocol QRScannerViewDelegate: class {
     func qrScanningDidStop()
 }
 
-class QRScannerView: UIView{
+class QRScannerView: UIViewController{
     weak var delegate: QRScannerViewDelegate?
     
     var captureSession: AVCaptureSession?
@@ -26,18 +26,10 @@ class QRScannerView: UIView{
         doInitialSetup();
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        doInitialSetup()
-    }
-    
-    override var layerClass: AnyClass {
+    var layerClass: AnyClass {
         return AVCaptureVideoPreviewLayer.self
     }
-    
-    override var layer: AVCaptureVideoPreviewLayer{
-        return super.layer as! AVCaptureVideoPreviewLayer
-    }
+
     
 }
 
@@ -56,7 +48,6 @@ extension QRScannerView{
     }
     
     private func doInitialSetup(){
-        clipsToBounds = true;
         captureSession = AVCaptureSession()
         
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else {return}
@@ -87,9 +78,7 @@ extension QRScannerView{
             return
         }
         
-        self.layer.session = captureSession
-        self.layer.videoGravity = .resizeAspectFill
-        
+    
         captureSession?.startRunning()
     }
     
@@ -99,7 +88,6 @@ extension QRScannerView{
     }
     
     func found(code: String) {
-        delegate?.qrScanningSucceededWithCode(code)
     }
 }
 

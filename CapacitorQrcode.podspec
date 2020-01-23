@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'Qrcode'
+    s.name = 'CapacitorQrcode'
     s.version = '0.0.1'
     s.summary = 'capacitor plugin to scan qr codes with ionic'
     s.license = 'Mozilla Public License 2.0'
