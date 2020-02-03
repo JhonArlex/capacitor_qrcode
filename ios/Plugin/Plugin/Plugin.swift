@@ -6,12 +6,25 @@ import Capacitor
  * here: https://capacitor.ionicframework.com/docs/plugins/ios
  */
 @objc(QRCodePlugin)
-public class QRCodePlugin: CAPPlugin {
+public class QRCodePlugin: CAPPlugin, QrScannerDelegate {
+    var call: CAPPluginCall?
     
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.success([
-            "value": value
+    @objc func getCodeQR(_ call: CAPPluginCall) {
+        self.call = call
+        let qrScanner:QRScannerView = QRScannerView()
+        qrScanner.delegate = self
+        DispatchQueue.main.async {
+          self.bridge.viewController.present(qrScanner, animated: true, completion: nil)
+        }
+        
+        
+    }
+    
+    func didFinishQrCode(_ code: String) {
+        self.call?.resolve([
+            "code": code
         ])
     }
+    
+   
 }
