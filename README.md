@@ -8,33 +8,18 @@ capacitor para ser utilizado por una aplicación hecha en ionic.
 
 npm i capacitor_qrcode -s
 
-#Usage
+# Usage
 
-IOS
-
-Lamentablemente en este momento no se tiene soporte para ios. Eventualmente en un tiempo si alguien desea realizarlo sientase
-en la libertad de implementarlo y adaptarlo a ios. Estoy pendiente si alguien lo desea hacer.
-
-ANDROID
-
-Esta version ya se encuentra funcionando.
+ANDROID And IOS
 
 import 'capacitor_qrcode';
 import { Plugins } from '@capacitor/core';
 
 const { QRCodePlugin} = Plugins;
 
-.
-.
-.
- scan() {
-    QRCodePlugin.getCodeQR().then(res => {
-      console.log(res);
-	  this.presentAlert(res.code);
-    });
-
-  }
-  
-  .
-  .
-  .
+`
+async openQr() {
+  const code = await QRCodePlugin.getCodeQR();
+  alert(code);
+}
+`
