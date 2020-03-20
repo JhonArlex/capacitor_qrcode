@@ -8,16 +8,16 @@
     android:layout_height="match_parent"
     android:keepScreenOn="true">
 
-  <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
+  <com.jhon.capacitor_qrcode.camera.CameraSourcePreview
       android:id="@+id/preview"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
 
-    <com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay
+    <com.jhon.capacitor_qrcode.camera.GraphicOverlay
         android:id="@+id/graphicOverlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-  </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
+  </com.jhon.capacitor_qrcode.camera.CameraSourcePreview>
 
 </LinearLayout>

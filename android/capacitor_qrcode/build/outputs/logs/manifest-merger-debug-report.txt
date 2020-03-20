@@ -1,71 +1,71 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:3:5-47
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:2:11-69
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:5:5-7:35
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:5:5-7:35
 	android:value
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:7:9-32
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:6:9-66
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:6:9-66
 uses-feature#android.hardware.camera
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:9:5-11:35
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:9:5-11:35
 	android:required
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:11:9-32
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:11:9-32
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:10:9-47
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:10:9-47
 uses-permission#android.permission.CAMERA
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:13:5-65
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:13:22-62
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:13:22-62
 uses-feature#android.hardware.camera.autofocus
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:15:5-70
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:15:5-70
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:15:19-67
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:15:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:17:5-81
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:17:22-78
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:18:5-67
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:18:5-67
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:18:22-64
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:18:22-64
 application
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:20:5-22:19
-activity#com.jhon.capacitor_qrcode.qrcode.BarcodeReader
-ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:21:9-60
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:20:5-22:19
+activity#com.jhon.capacitor_qrcode.BarcodeCaptureActivity
+ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:21:9-94
 	android:name
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml:21:19-82
 uses-sdk
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		ADDED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
-		INJECTED from /media/jhonandmary/44f5c748-476c-4e05-bd8a-9053b1940781/plugins-capacitor/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		ADDED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
+		INJECTED from /Users/usuario/Documents/proyectos/jhon/capacitor-plugins/pruebas/node_modules/capacitor_qrcode/android/capacitor_qrcode/src/main/AndroidManifest.xml
