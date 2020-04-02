@@ -8,6 +8,10 @@ capacitor para ser utilizado por una aplicación hecha en ionic.
 
 npm i capacitor_qrcode -s
 
+# Insertar class de capacitor code en MainActivity.java en el onCreate
+
+add(QRCodePlugin.class);
+
 # Usage
 
 ANDROID And IOS
@@ -18,8 +22,12 @@ import { Plugins } from '@capacitor/core';
 const { QRCodePlugin} = Plugins;
 
 `
-async openQr() {
-  const code = await QRCodePlugin.getCodeQR();
-  alert(code);
+openQr() {
+    QRCodePlugin.getCodeQR().then(res => {
+      this.getSiteByCode(res.code);
+    }).catch(err => {
+      console.error(err);
+    });
+    
 }
 `
